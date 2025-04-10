@@ -1,0 +1,14 @@
+.model_container {
+    width: 95%;
+    max-width: 572px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: fit-content;
+    max-height: 90vh;
+    background: rgba(239, 239, 239, 0.85);
+    border: 0;
+    border-radius: 15px;
+    padding: 2rem;
+    position: absolute; 
+  }

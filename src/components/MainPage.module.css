@@ -1,0 +1,77 @@
+.container{
+    background:var(--primary-bg-color);
+    padding:24px;
+    min-height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 85px;
+    height: 25px;
+}
+.red{
+    background-color: #cc2323;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.yellow{
+    background-color: #f4bb4a;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.green{
+    background-color: #48a14d;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.page{
+    padding: 24px;
+    background-color: #3B3B3B;
+    color: white;
+}
+
+.card_page{
+    background-color: #626262;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.card{
+    width: 40%;
+    border-radius: 10px;
+    background-color: #9B9B9B;
+    padding: 40px;
+}
+
+.pai_chart{
+    width: 25%;
+}
+
+.expanse_details{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+
+.expanse_list{
+    width: 70%;
+    height: 100%;
+}
+
+.expanse_chart{
+    width: 25%;
+}
