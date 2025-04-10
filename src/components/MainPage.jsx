@@ -27,11 +27,11 @@ export default function ExpainseTracker() {
     travel: 0,
   });
 
-  const [categoryCount, setCategoryCount] = useState({
-    food: 0,
-    entertainment: 0,
-    travel: 0,
-  });
+  // const [categoryCount, setCategoryCount] = useState({
+  //   food: 0,
+  //   entertainment: 0,
+  //   travel: 0,
+  // });
 
   useEffect(() => {
     //To Check the localStorage
@@ -71,20 +71,20 @@ export default function ExpainseTracker() {
       let foodSpends = 0,
         entertainmentSpends = 0,
         travelSpends = 0;
-      let foodCount = 0,
-        entertainmentCount = 0,
-        travelCount = 0;
+      // let foodCount = 0,
+      //   entertainmentCount = 0,
+      //   travelCount = 0;
   
       expenseList.forEach((item) => {
         if (item.category === "food") {
           foodSpends += Number(item.price);
-          foodCount++;
+          // foodCount++;
         } else if (item.category === "entertainment") {
           entertainmentSpends += Number(item.price);
-          entertainmentCount++;
+          // entertainmentCount++;
         } else if (item.category === "travel") {
           travelSpends += Number(item.price);
-          travelCount++;
+          // travelCount++;
         }
       });
   
@@ -94,11 +94,11 @@ export default function ExpainseTracker() {
         entertainment: entertainmentSpends,
       });
   
-      setCategoryCount({
-        food: foodCount,
-        travel: travelCount,
-        entertainment: entertainmentCount,
-      });
+      // setCategoryCount({
+      //   food: foodCount,
+      //   travel: travelCount,
+      //   entertainment: entertainmentCount,
+      // });
   }, [expenseList, isMounted]);
 
   // saving balance in localStorage
@@ -121,11 +121,11 @@ export default function ExpainseTracker() {
             <div className={styles.cards}>
               <div className={styles.card}>
                 <h3>Wallet Balance: {balance}</h3>
-                <CustomButton style="success" handleClick={() => { setIsOpenBalance(true) }}>+Add Income</CustomButton>
+                <CustomButton styler="success" handleClick={() => { setIsOpenBalance(true) }}>+Add Income</CustomButton>
               </div>
               <div className={styles.card}>
                 <h3>Expanses: {expense}</h3>
-                <CustomButton style="failure" handleClick={() => { setIsOpenExpense(true) }}>+Add Expanse</CustomButton>
+                <CustomButton styler="failure" handleClick={() => { setIsOpenExpense(true) }}>+Add Expanse</CustomButton>
               </div>
             </div>
             

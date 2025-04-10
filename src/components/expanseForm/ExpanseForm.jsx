@@ -125,9 +125,9 @@ export default function ExpenseForm({ setIsOpen, expenseList, setExpenseList, ed
                     required
                 />
 
-                <CustomButton type="submit" style="primary" shadow>{editId ? 'Edit Expense' : 'Add Expense'}</CustomButton>
+                <CustomButton type="submit" styler="primary" shadow>{editId ? 'Edit Expense' : 'Add Expense'}</CustomButton>
 
-                <CustomButton style='secondary' shadow
+                <CustomButton styler='secondary' shadow
                     handleClick={() => setIsOpen(false)}
                 >
                     Cancel
