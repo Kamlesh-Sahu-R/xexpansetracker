@@ -1,3 +1,6 @@
+.formWrapper{
+    width: 500px;
+}
 .formWrapper h3{
     font-size: 30px;
     margin-bottom: 10px;
@@ -6,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap:18px;
+    width: 500px;
 }
 .formWrapper input,
 .formWrapper select{

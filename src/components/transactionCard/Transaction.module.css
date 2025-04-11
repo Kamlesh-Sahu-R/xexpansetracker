@@ -1,11 +1,11 @@
 .card{
     border-bottom:1px solid #9B9B9B;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap:wrap;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 }
 .cardInner{
     display: flex;
@@ -23,10 +23,14 @@
     font-size: 1rem;
     color:#000;
     font-weight: 400;
+    padding: 1px;
+    margin: 1px;
 }
 .cardInfo p{
     color: #9B9B9B;
     font-size: 1rem;
+    padding: 1px;
+    margin: 1px;
 }
 .cardPrice{
     color:#F4BB4A;
