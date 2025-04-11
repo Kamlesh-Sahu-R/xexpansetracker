@@ -125,7 +125,7 @@ export default function ExpainseTracker() {
                     {`₹${balance}`}
                 </span>
                 </h3>
-                <CustomButton styler="success" handleClick={() => { setIsOpenBalance(true) }}>+Add Income</CustomButton>
+                <CustomButton styler="success" handleClick={() => { setIsOpenBalance(true) }}>+ Add Income</CustomButton>
               </div>
               <div className={styles.card}>
                 <h3>Expanses:{" "}
@@ -133,7 +133,7 @@ export default function ExpainseTracker() {
                     {`₹${expense}`}
                 </span>
                 </h3>
-                <CustomButton styler="failure" handleClick={() => { setIsOpenExpense(true) }}>+Add Expanse</CustomButton>
+                <CustomButton styler="failure" handleClick={() => { setIsOpenExpense(true) }}>+ Add Expense</CustomButton>
               </div>
             </div>
             
