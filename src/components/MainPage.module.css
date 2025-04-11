@@ -75,3 +75,10 @@
 .expanse_chart{
     width: 25%;
 }
+.success{
+    color:#89E148;
+}
+
+.failure{
+    color:#F4BB4A;
+}
